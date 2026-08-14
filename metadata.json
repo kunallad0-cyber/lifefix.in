@@ -1,0 +1,12 @@
+{
+  "name": "LifeFix AI",
+  "description": "Universal AI assistant for scam detection, home repair, health guidance, local services, voice support & document analysis.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
