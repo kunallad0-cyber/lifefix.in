@@ -1,0 +1,2 @@
+# Replace `pub-REPLACE_WITH_YOUR_PUBLISHER_ID` with the actual AdSense publisher ID before production launch.
+google.com, pub-REPLACE_WITH_YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0

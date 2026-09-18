@@ -4,23 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LifeFix AI - Problem Solver & Scam Detector</title>
-    <meta name="description" content="Universal AI assistant for scam detection, home repair, health guidance, local services, voice support & document analysis." />
+    <meta name="description" content="LifeFix AI provides practical, general information for everyday problems, scam awareness, home troubleshooting, and local safety guidance." />
     <meta name="theme-color" content="#4f46e5" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="google-adsense-account" content="%VITE_ADSENSE_PUBLISHER_ID%" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="LifeFix AI" />
+    <link rel="canonical" href="https://lifefix.in/" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="apple-touch-icon" href="/icon.svg" />
-    <meta property="og:title" content="LifeFix AI - Problem Solver & Scam Detector" />
-    <meta property="og:description" content="Universal AI assistant for scam detection, home repair, health guidance, local services, voice support & document analysis." />
+    <meta property="og:title" content="LifeFix AI - Practical Problem-Solving Assistant" />
+    <meta property="og:description" content="General guidance for everyday problems, scam awareness, and household safety." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lifefix.in/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      const publisherId = '%VITE_ADSENSE_PUBLISHER_ID%';
+      if (/^ca-pub-\d+$/.test(publisherId)) {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisherId}`;
+        script.crossOrigin = 'anonymous';
+        document.head.appendChild(script);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
